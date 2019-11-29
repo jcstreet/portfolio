@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav {
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+}
+
+.projects {
+    background-color: lightgray;
+}
+
+.about, .projects {
+    height: 100vh;
+    padding: 12%;
+}
+
+footer {
+    min-height: 100px;
+}
+
+nav, footer {
+    padding: 3%;
+}
