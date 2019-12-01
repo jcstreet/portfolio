@@ -2,10 +2,14 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    text-align: center;
 }
 
 nav {
@@ -17,19 +21,103 @@ nav {
     text-align: right;
 }
 
-.projects {
-    background-color: lightgray;
+.about {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20%;
+    height: 100vh;
 }
 
-.about, .projects {
-    height: 100vh;
-    padding: 12%;
+.projects {
+    background-color: lightgray;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100vw;
+    margin: auto;
 }
 
 footer {
     min-height: 100px;
+    text-align: center;
 }
 
 nav, footer {
     padding: 3%;
 }
+
+.about h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.about p, .p-item p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.p-item ul {
+    padding-bottom: 70px;
+}
+
+.projects h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p-item img {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: none;
+}
+
+@media screen and (min-width: 700px) {
+    nav {
+        padding: 13px;
+    }
+
+    .projects {
+        overflow: auto;
+    }
+
+    .p-item {
+        clear: left;
+    }
+
+    .projects h2 {
+        margin: 0px;
+    }
+
+    .p-item img {
+        width: 425px;
+        float: left;
+        padding-bottom: 60px;
+        padding-right: 10px;
+    }
+
+    .p-item p {
+        padding-top: 5px;
+    }
+
+    .p-item ul {
+        text-align: left;
+    }
+
+  }

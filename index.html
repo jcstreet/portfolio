@@ -5,14 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/c6d48ca23e.js" crossorigin="anonymous"></script>
     <title>Jackie's Portfolio Wirefram</title>
 </head>
 <body>
-    <nav>Nav</nav>
+    <header>
+        <nav id="main-menu" class="main-menu" aria-label="Main menu">
+            <a href="#main-menu" id="main-menu-toggle" class="menu-toggle" aria-label="Open main menu">
+                <span class="sr-only">Open main menu</span>
+                <span class="fa fa-bars"></span>
+            </a>
+            <ul>
+                <li><a href="link">About</a></li>
+                <li><a href="link">Projects</a></li>
+                <li><a href="link">Email Me</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <section class="about">Section 1</section>
-        <section class="projects">Section 2</section>
+        <section class="about">
+            <h1>Hi.</h1>
+            <p>I’m Jackie Street and I am a full-stack web developer.
+                <br><br>When I’m not poking around with HTML, CSS, JavaScript, and jQuery, I’m 
+                usually exploring with my camera in hand, spending an exorbitant amount of time 
+                in a book store, or attempting to learn the ukulele.</p>
+        </section>
+        <section class="projects">
+            <h2>Portfolio</h2>
+            <div class="p-item">
+                <img src="images/cat-quiz-preview.jpg" alt="Obscure Cat Facts Begin Quiz screen">
+                <h3>Cat Quiz</h3>
+                <p>Some basic info about the cat facts quiz app I built. This one has a lot of
+                    information to say about it. Blah blah blah.</p>
+                <ul>
+                    <li><a href="some link">Live</a></li>
+                    <li> | </li>
+                    <li><a href="some link">Repo</a></li>
+                </ul>
+            </div>
+            <div class="p-item">
+                <img src="images/cat-quiz-preview.jpg" alt="Obscure Cat Facts Begin Quiz screen">
+                <h4>Some Other Title</h4>
+                <p>Some basic info about the cat facts quiz app I built.</p>
+                <ul>
+                    <li><a href="some link">Live</a></li>
+                    <li> | </li>
+                    <li><a href="some link">Repo</a></li>
+                </ul>
+            </div>
+            <div class="p-item">
+                <img src="images/cat-quiz-preview.jpg" alt="Obscure Cat Facts Begin Quiz screen">
+                <h5>An Even More Different Title Than Before</h5>
+                <p>Some basic info about the cat facts quiz app I built.</p>
+                <ul>
+                    <li><a href="some link">Live</a></li>
+                    <li> | </li>
+                    <li><a href="some link">Repo</a></li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer>Footer</footer>
+    <footer>
+        <p>my-email@email.com</p>
+        <ul>
+            <li><a href="some link">Twitter</a></li>
+            <li><a href="some link">LinkdIn</a></li>
+            <li><a href="some link">GitHub</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
