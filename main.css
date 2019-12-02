@@ -13,12 +13,16 @@ body {
 }
 
 nav {
-    background-color: lightgray;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     text-align: right;
+    font-size: 26px;
+}
+
+.menu-toggle, footer {
+    color: rgb(224, 112, 77);
 }
 
 .about {
@@ -29,7 +33,7 @@ nav {
 }
 
 .projects {
-    background-color: lightgray;
+    background-color: rgb(232, 230, 230);
     padding-left: 10%;
     padding-right: 10%;
     width: 100vw;
@@ -39,21 +43,18 @@ nav {
 footer {
     min-height: 100px;
     text-align: center;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 1px;
 }
 
 nav, footer {
     padding: 3%;
+    background-color: #252527
 }
 
-.about h1 {
-    font-family: 'Muli', sans-serif;
-    font-size: 70px;
-    margin-bottom: 0px;
-}
-
-.about p, .p-item p {
-    font-size: 16px;
-    line-height: 24px;
+.p-title {
+    margin: 0;
+    font-size: 22px;
 }
 
 ul {
@@ -67,15 +68,33 @@ li {
     display: inline;
 }
 
+.about h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.about p, .p-item p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 5px
+}
+
 .p-item ul {
     padding-bottom: 70px;
+}
+
+.p-item a {
+    color: rgb(224, 112, 77);
 }
 
 .projects h2 {
     font-family: 'Muli', sans-serif;
     font-size: 40px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .p-item img {
@@ -86,6 +105,10 @@ li {
 
 nav ul {
     display: none;
+}
+
+footer a {
+    color: rgb(232, 230, 230);  
 }
 
 @media screen and (min-width: 700px) {
