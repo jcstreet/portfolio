@@ -26,18 +26,15 @@ nav {
 }
 
 .about {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 20%;
+    padding: 30% 10% 0px;
     height: 100vh;
 }
 
 .projects {
     background-color: rgb(232, 230, 230);
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0px 10%;
     width: 100vw;
-    margin: auto;
+    margin-top: 45px;
 }
 
 footer {
@@ -66,6 +63,20 @@ ul {
 
 li {
     display: inline;
+}
+
+.main-menu a {
+    font-size: 18px;
+    color: rgb(224, 112, 77);
+    text-decoration: none;
+}
+
+.main-menu li {
+    padding: 10px;
+}
+
+.main-menu ul {
+    text-align: right;
 }
 
 .about h1 {
@@ -103,17 +114,26 @@ li {
     height: auto;
 }
 
-nav ul {
-    display: none;
+.f-email {
+    color: rgb(224, 112, 77);
 }
 
+
 footer a {
-    color: rgb(232, 230, 230);  
+    color: rgb(232, 230, 230);
+    text-decoration: none;
 }
+
+
+
 
 @media screen and (min-width: 700px) {
     nav {
         padding: 13px;
+    }
+
+    .about {
+        padding: 20% 10%;
     }
 
     .projects {
@@ -141,6 +161,10 @@ footer a {
 
     .p-item ul {
         text-align: left;
+    }
+
+    .main-menu a {
+        font-size: 22px;
     }
 
   }

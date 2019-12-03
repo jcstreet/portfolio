@@ -11,27 +11,23 @@
 </head>
 <body>
     <header>
-        <nav id="main-menu" class="main-menu" aria-label="Main menu">
-            <a href="#main-menu" id="main-menu-toggle" class="menu-toggle" aria-label="Open main menu">
-                <span class="sr-only">Open main menu</span>
-                <span class="fa fa-bars"></span>
-            </a>
+        <nav class="main-menu">
             <ul>
-                <li><a href="link">About</a></li>
-                <li><a href="link">Projects</a></li>
-                <li><a href="link">Email Me</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="mailto:jackiecstreet@gmail.com">Email Me</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="about">
+        <section id="about" class="about">
             <h1>Hi.</h1>
             <p>I’m Jackie Street and I am a full-stack web developer.</p>
             <p>When I’m not poking around with HTML, CSS, JavaScript, and jQuery, I’m 
                 usually exploring with my camera in hand, spending an exorbitant amount of time 
                 in a book store, or attempting to learn the ukulele.</p>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2>Portfolio</h2>
             <div class="p-item">
                 <img src="images/cat-quiz-preview.jpg" alt="Obscure Cat Facts Begin Quiz screen">
@@ -39,9 +35,9 @@
                 <p>Some basic info about the cat facts quiz app I built. This one has a lot of
                     information to say about it. Blah blah blah.</p>
                 <ul>
-                    <li><a href="some link">Live</a></li>
+                    <li><a href="https://jcstreet.github.io/Quiz-App/index.html" target="_blank">Live</a></li>
                     <li> | </li>
-                    <li><a href="some link">Repo</a></li>
+                    <li><a href="https://github.com/jcstreet/Quiz-App" target="_blank">Repo</a></li>
                 </ul>
             </div>
             <div class="p-item">
@@ -67,13 +63,13 @@
         </section>
     </main>
     <footer>
-        <p>my-email@email.com</p>
+        <p><a href="mailto:jackiecstreet@gmail.com" class="f-email">jackiecstreet@gmail.com</a></p>
         <ul>
-            <li><a href="some link">Twitter</a></li>
+            <li><a href="https://github.com/jcstreet" target="_blank">GitHub</a></li>
             <li>|</li>
-            <li><a href="some link">LinkdIn</a></li>
+            <li><a href="https://www.linkedin.com/in/jackie-street-aa3a103a/" target="_blank">LinkedIn</a></li>
             <li>|</li>
-            <li><a href="some link">GitHub</a></li>
+            <li><a href="https://twitter.com/jcstreetphoto" target="_blank">Twitter</a></li>
         </ul>
     </footer>
 </body>
