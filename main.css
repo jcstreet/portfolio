@@ -32,8 +32,9 @@ nav {
 
 .projects {
     background-color: rgb(232, 230, 230);
-    padding: 0px 10%;
+    padding: 20px 10%;
     width: 100vw;
+    min-height: 100vh;
 }
 
 footer {
@@ -137,6 +138,7 @@ footer a {
 
     .projects {
         overflow: auto;
+        padding: 40px 10%;
     }
 
     .p-item {
@@ -165,5 +167,6 @@ footer a {
     .main-menu a {
         font-size: 22px;
     }
+
 
   }
