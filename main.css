@@ -22,7 +22,7 @@ nav {
 }
 
 .menu-toggle, footer {
-    color: rgb(224, 112, 77);
+    color: #D88D74;
 }
 
 .about {
@@ -46,7 +46,7 @@ footer {
 
 nav, footer {
     padding: 3%;
-    background-color: #252527
+    background-color: #121212;
 }
 
 .p-title {
@@ -67,7 +67,7 @@ li {
 
 .main-menu a {
     font-size: 18px;
-    color: rgb(224, 112, 77);
+    color: #D88D74;
     text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ li {
 }
 
 .f-email {
-    color: rgb(224, 112, 77);
+    color: #D88D74;
 }
 
 
