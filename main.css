@@ -54,7 +54,15 @@ nav, footer {
     font-size: 22px;
 }
 
-ul {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+    float: right;
+}
+
+.p-item ul {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
@@ -63,6 +71,12 @@ ul {
 
 li {
     display: inline;
+}
+
+nav p {
+    float: left;
+    color: white;
+    margin: 0px;
 }
 
 .main-menu a {
